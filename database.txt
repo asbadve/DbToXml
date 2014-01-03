@@ -1,0 +1,18 @@
+create database database_name;
+create table table1
+(
+attribute1 int primary key,
+attribute2 varchar(20)
+);
+create table table2
+(
+attribute1_2 int primary key,
+attribute2_2 varchar(20)
+);
+insert into table1 values(1,'sanika');
+insert into table1 values(2,'ajinkya');
+insert into table1 values(3,'bhavana');
+
+insert into table2 values(1,'abcd');
+insert into table2 values(2,'efgh');
+insert into table2 values(3,'pqrs');
